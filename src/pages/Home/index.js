@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../../components/Header";
 import About from "./About";
+import Experiences from "./Experiences";
 import Intro from "./Intro";
 
 function Home() {
@@ -9,6 +10,7 @@ function Home() {
     <Header />
     <Intro />
     <About />
+    <Experiences />
   </div>
   )
 }
