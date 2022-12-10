@@ -5,7 +5,7 @@ import Intro from "./Intro";
 
 function Home() {
   return (
-  <div className="bg-primary px-40">
+  <div className="bg-primary px-40 sm:px-5">
     <Header />
     <Intro />
     <About />
