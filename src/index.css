@@ -17,9 +17,16 @@
 ::-webkit-scrollbar-track {
   background-color: #010540;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #FAC304; 
+  background: #fac304;
   border-radius: 10px;
+}
+
+i {
+  cursor: pointer;
+}
+i:hover {
+  color: white;
 }
