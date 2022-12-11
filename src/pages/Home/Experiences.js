@@ -18,7 +18,7 @@ function Experiences() {
               className="cursor-pointer"
             >
               <h1
-                className={`text-xl px-10 ${
+                className={`text-xl px-5 ${
                   selectedItemIndex === index
                     ? "text-tertiary border-tertiary border-l-4 -ml-[3px] bg-[#edd60973] py-3"
                     : "text-white"
