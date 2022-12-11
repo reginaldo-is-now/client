@@ -1,0 +1,58 @@
+export const projects = [
+    {
+        technologies:[],
+        _id: "6301203d4042e2d798b59dc7",
+        title: "Project 7",
+        image: "lorem image7",
+        description:"lorem description7",
+        link: "/",
+    },
+    {
+        technologies:[],
+        _id: "6301203d4042e2d798b59dc6",
+        title: "Project 6",
+        image: "lorem image6",
+        description:"lorem description6",
+        link: "/", 
+    },
+    {
+        technologies:[],
+        _id: "6301203d4042e2d798b59dc5",
+        title: "Project 5",
+        image: "lorem image5",
+        description:"lorem description5",
+        link: "/", 
+    },
+    {
+        technologies:[],
+        _id: "6301203d4042e2d798b59dc4",
+        title: "Project 4",
+        image: "lorem image4",
+        description:"lorem description4",
+        link: "/", 
+    },
+    {
+        technologies:[],
+        _id: "6301203d4042e2d798b59dc3",
+        title: "Project 3",
+        image: "lorem image3",
+        description:"lorem description3",
+        link: "/", 
+    },
+    {
+        technologies:[],
+        _id: "6301203d4042e2d798b59dc2",
+        title: "Project 2",
+        image: "lorem image2",
+        description:"lorem description2",
+        link: "/", 
+    },
+    {
+        technologies:[],
+        _id: "6301203d4042e2d798b59dc1",
+        title: "Project 1",
+        image: "lorem image1",
+        description:"lorem description1",
+        link: "/", 
+    }
+]
