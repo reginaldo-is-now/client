@@ -29,10 +29,10 @@ function About() {
   return (
     <div>
       <SectionTitle title="About Me" />
-      <div className="flex w-full items-center sm:flex-col"> 
-        <div className="h-[70vh] w-1/2 sm:w-full">
-          <lottie-player
-            src="https://assets1.lottiefiles.com/packages/lf20_kyu7xb1v.json"
+      <div className="flex w-full items-center sm:flex-col">
+        <div className="h-[50vh] w-1/2 sm:w-full">
+        <lottie-player
+            src="https://assets7.lottiefiles.com/packages/lf20_4rlayuvp.json"
             background="transparent"
             speed="1"
             autoplay
@@ -57,8 +57,8 @@ function About() {
           </p>
         </div>
       </div>
-      <div className="py-5f">
-        <h1 className="text-tertiary text-2xl">
+      <div className="py-5">
+        <h1 className="text-tertiary text-2xl ">
           Here are a few technologies I've been working with recently:
         </h1>
         <div className="flex flex-wrap gap-10 mt-5 sm:w-full">

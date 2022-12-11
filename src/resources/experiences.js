@@ -1,4 +1,4 @@
-export const epxeriences = [
+export const experiences = [
   {
     _id: "630120134042e2d798b59dc4",
     company: "Outliant",
