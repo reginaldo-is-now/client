@@ -4,8 +4,10 @@ import About from "./About";
 import Contact from "./Contact";
 import Courses from "./Courses";
 import Experiences from "./Experiences";
+import Footer from "./Footer";
 import Intro from "./Intro";
 import Projects from "./Projects";
+import Sider from "./Sider";
 
 
 function Home() {
@@ -18,6 +20,8 @@ function Home() {
     <Projects />
     <Courses />
     <Contact />
+    <Footer />
+    <Sider />
   </div>
   )
 }

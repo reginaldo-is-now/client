@@ -8,30 +8,29 @@ function Contact() {
     mobile: "+63 9213944994",
     country: "Philippines",
   };
-
   return (
     <div>
       <SectionTitle title="Say Hello" />
 
-      <div classNme="flex sm:flex-col items-center justify-between">
-        <div className="flex flex-col gap-1">
-          <p className="text-tertiary">{"{"}</p>
+      <div className="flex sm:flex-col items-center justify-between">
+        <div className="text-white flex-col gap-1">
+          <p className="text-tertiary text-2xl">{"{"}</p>
           {Object.keys(user).map((key) => (
             <p className="ml-5">
-              <span className="text-white">{key} : </span>
-              <span className="text-white">{user[key]}</span>
+              <span className="text-white text-2xl">{key} : </span>
+              <span className="text-white text-2xl">{user[key]}</span>
             </p>
           ))}
-          <p className="text-tertiary">{"}"}</p>
+          <h1 className="text-tertiary text-2xl">{"}"}</h1>
         </div>
-        <div className="h-[400px]">
-            <lottie-player
-              src="https://assets1.lottiefiles.com/packages/lf20_7xuspsfv.json"
-              background="transparent"
-              speed="1"
-              autoplay
-            ></lottie-player>
-          </div>
+        <div className="h-50vh">      
+        <lottie-player
+          src="https://assets1.lottiefiles.com/packages/lf20_7xuspsfv.json"
+          background="transparent"
+          speed="1"
+          autoplay
+        ></lottie-player>
+        </div>
       </div>
     </div>
   );
