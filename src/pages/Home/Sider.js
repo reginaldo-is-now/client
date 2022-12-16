@@ -2,7 +2,7 @@ import React from "react";
 
 function Sider() {
   return (
-    <div className="fixed left-0 bottom-0 px=10 sm:static">
+    <div className="fixed left-5 bottom-0 py=5 sm:static">
       <div className="flex flex-col items-center">
         <div className="flex flex-col gap-3 sm:flex-row">
           <a href="https://www.google.com/">
